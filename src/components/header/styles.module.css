@@ -1,0 +1,11 @@
+.header {
+    padding: 15px 0;
+    background-color: #f0f0f0;
+    grid-area: header;
+}
+
+.logo {
+    display: block;
+    max-width: 70px;
+    margin: 0 auto;
+}

@@ -1,0 +1,52 @@
+.content {
+    display: grid;
+    grid-template-areas:
+        'pic'
+        'info'
+        'posts'
+        'comments';
+    grid-gap: 20px;
+    grid-area: content;
+}
+
+.pic {
+    position: relative;
+    background: url('https://lh3.googleusercontent.com/proxy/jmhnaZOr_WK4aKQh6gMKqH71IBgsSIbHgyGjWrJnzruWHMtpkjRcpvlTvGF0zSAqSiGl0-3z27HI5v92s0C48W7xSTDDu25PiWxDc8CL0gsiJA')
+        center no-repeat;
+    background-size: cover;
+    grid-area: pic;
+    height: 200px;
+}
+
+.info {
+    display: flex;
+    grid-area: info;
+    padding: 40px;
+}
+
+.avatar {
+    height: 120px;
+    width: 120px;
+    margin-right: 50px;
+    background: url('https://lh3.googleusercontent.com/proxy/FrthPhDU5GK4bWO4Ko5HbZE-sliMDoi83GjHV1WMr3mFDnLXYVqtaN8dA-wnd5fnYWuc__UePHkyUS9xWp9hMfd8c9xxKglE-Wu4O5zfeajDAvkF')
+        center no-repeat;
+    background-size: cover;
+}
+
+.name {
+    margin: 0;
+    font-weight: normal;
+}
+
+.facts {
+    list-style-type: none;
+}
+
+.posts {
+    grid-area: posts;
+}
+
+.comments {
+    grid-area: comments;
+    padding: 40px;
+}
